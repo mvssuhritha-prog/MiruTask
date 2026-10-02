@@ -5,5 +5,65 @@
   </head>
   <body>
     
+    <header>
+      <h1> MiruTask </h1>
+      <p> Small steps. Real progress.</p>
+      
+      <section>
+       
+        <h2> Add a task</h2>
+        <input type="text" id="task-input" placeholder="Enter your task here">
+        
+        <label for="priority">Priority:</label>
+        
+        <select id="priority">
+          <option> High </option>
+          <option> Medium </option>
+          <option> Low  </option>
+        </select>
+          
+        <label for="due-date">Due Date:</label>
+        <input type="date" id="due-date">
+
+        <label for="tag">Tag:</label>
+
+       <select id="tag">
+        <option> work </option>
+        <option> study </option>
+        <option> creative </option>
+        <option> Entertainment </option>
+        <option> personal </option>
+        <option> create your own task :) </option>
+       </select>
+
+        <button id="add-task"> Add Task </button>
+
+      </section>
+
+      <section>
+        <h2> My Tasks</h2>
+
+        <ul id="task-list">
+          <li> 
+              <input type="checkbox">
+            <div>
+              <span> Task name </span>
+              <span> priority </span>
+              <span> due date </span>
+              <span> tag </span>
+            </div>
+            
+            <div>
+              <button> Edit </button>
+              <button> Delete </button>
+            </div>            
+          </li>
+
+
+        </ul>
+      </section>
+
+
+    </header>
   </body>
 </html>
